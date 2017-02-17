@@ -1,7 +1,7 @@
 <?php
 set_time_limit(0);
 ini_set('memory_limit', '-1');
-class api_jsobytes
+class File2jsobytes
 {
 	protected $jsobyte = ['jsobyte' => ['version' => '1.0']];
 	
