@@ -1,6 +1,12 @@
 # jsobytes-php
 php lib for jsobytes
 
+https://git.gocode.it/RaidAndFade/jsobyte
+
+^Creator
+
+-----------------------------------------------------------------
+
 Uses:
 
 $filename is optional.
