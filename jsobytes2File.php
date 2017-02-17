@@ -34,7 +34,7 @@ class jsobytes2File
 			}
 			$file = implode('', $jsobytes);
 			$file = preg_replace('/[\x00-\x1F\x7F]/', '', $file);
-			$filedir = __DIR__ . "{$file_data['file_name']}.{$file_data['file_ext']}";
+			$filedir = __DIR__ . time() . "-{$file_data['file_name']}.{$file_data['file_ext']}";
 			if (file_put_contents($filedir, $data))
 			{
 				echo "Success, saved at {$filedir}";
