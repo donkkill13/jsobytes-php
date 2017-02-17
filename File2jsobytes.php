@@ -41,12 +41,12 @@ class File2jsobytes
 		if (file_put_contents($filedir, $data))
 		{
 			echo "Success, saved at {$filedir}";
-			die();
+			return $filedir;
 		}
 		else
 		{
 			echo "Error saving file.";
-			die();
+			return false;
 		}
 	}
 	
