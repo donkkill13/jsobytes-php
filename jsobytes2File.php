@@ -38,18 +38,18 @@ class jsobytes2File
 			if (file_put_contents($filedir, $data))
 			{
 				echo "Success, saved at {$filedir}";
-				die();
+				return $filedir;
 			}
 			else
 			{
 				echo "Error saving file.";
-				die();
+				return false;
 			}
 		}
 		else
 		{
 			echo $this->jsonError();
-			die();
+			return false;
 		}
 	}
 	
