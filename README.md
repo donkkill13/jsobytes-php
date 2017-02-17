@@ -1,9 +1,5 @@
 # jsobytes-php
-php lib for jsobytes
-
-https://git.gocode.it/RaidAndFade/jsobyte
-
-^Creator
+php lib for [jsobyte](https://git.gocode.it/RaidAndFade/jsobyte)
 
 -----------------------------------------------------------------
 
